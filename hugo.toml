@@ -1,0 +1,41 @@
+baseURL = 'https://foxsbai.github.io/'
+languageCode = 'zh-cn'
+locale = 'zh-cn'
+title = 'foxsbai'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "I'm **foxsbai**, a software developer and tech enthusiast. Welcome to my personal site!"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/foxsbai"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:foxsbai@gmail.com"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 3
